@@ -9,23 +9,32 @@ export default class Navbar extends Component {
     return (
       <NavWrapper className="navbar navbar-expand-sm navbar-dark  px-sm-5">
         <Link to="/">
-          <img src={logo} alt="store" className="navbar-brand" />
+          <img src={logo} alt="store" className="navbar-brand" width="111" />
         </Link>
         <ul className="navbar-nav align-items-center">
-          <li className="nav-item ml-5">
+          <li className="nav-item ml-1">
             <Link to="/" className="nav-link">
-              products
+              violin.play()
             </Link>
           </li>
         </ul>
+
         <Link to="/cart" className="ml-auto">
           <ButtonContainer>
             <span className="mr-2">
-              <i className="fas fa-cart-plus" />
+              <i className="fas fa-music" />
             </span>
             my cart
           </ButtonContainer>
         </Link>
+        <a
+          href="https://kickstarter.com/projects/violinplay/violinplay"
+          target="_blank"
+        >
+          <ButtonContainer className="ml-auto">
+            <span className="mx-2 mr-2">Kickstarter ends July 17th, 2019</span>
+          </ButtonContainer>
+        </a>
       </NavWrapper>
     );
   }

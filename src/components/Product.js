@@ -13,7 +13,7 @@ export default class Product extends Component {
           <ProductConsumer>
             {value => (
               <div
-                className="img-container p-5"
+                className="img-container p-4"
                 onClick={() => value.handleDetail(id)}
               >
                 <Link to="/details">
@@ -33,7 +33,7 @@ export default class Product extends Component {
                       in cart
                     </p>
                   ) : (
-                    <i className="fas fa-cart-plus" />
+                    <i className="fas fa-music" />
                   )}
                 </button>
               </div>
@@ -89,7 +89,7 @@ const ProductWrapper = styled.div`
     transform: scale(1.2);
   }
   .card-img-top {
-    transition: all 1s linear;
+    transition: all 0.8s linear;
   }
   .cart-btn {
     position: absolute;

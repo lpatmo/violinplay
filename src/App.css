@@ -1,20 +1,20 @@
 :root {
-  --mainBlue: #2a2a72;
-  --lightBlue: #009ffd;
+  --mainBlue: #4f80e4;
+  --lightBlue: #87dbc5;
   --mainWhite: #f3f3f3;
   --mainDark: #232528;
   --mainYellow: #ffa400;
 }
 body {
-  font-family: "Oswald", sans-serif !important;
+  font-family: "Raleway", sans-serif !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
 
 .text-title {
-  font-family: "Permanent Marker", cursive;
+  font-family: "Barriecito", cursive;
   letter-spacing: 0.3rem;
-  text-transforrm: upperrcase;
+  text-transform: uppercase;
 }
 .text-blue {
   color: var(--mainBlue);
