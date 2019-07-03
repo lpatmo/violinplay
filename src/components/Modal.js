@@ -16,13 +16,13 @@ export default class Modal extends Component {
           } else {
             return (
               <ModalContainer>
-                <div className="container">
+                <div className="container" onClick={() => closeModal()}>
                   <div className="row">
                     <div
                       id="modal"
                       className="col-8 mx-auto col-md-6 col-lg-4 text-center text-capitalize p-5"
                     >
-                      <h5>Song added to the cart</h5>
+                      <h5>Song added to cart!</h5>
                       <img src={img} className="img-fluid" alt="product" />
                       <h5>{title}</h5>
                       <h5 className="text-muted">price: $ {price}</h5>

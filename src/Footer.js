@@ -5,7 +5,7 @@ export default class Footer extends Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="mx-auto">
+          <div className="mx-auto mb-3">
             <div>
               Music &copy; 2019 by{" "}
               <a

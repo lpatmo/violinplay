@@ -12,6 +12,9 @@ export default class ProductList extends Component {
             <div className="container">
               <Title name="violin.play()" title="album songs" />
               <div className="row">
+                <h3 className="mx-auto">Code-inspired violin music</h3>
+              </div>
+              <div className="row">
                 <ProductConsumer>
                   {value => {
                     return value.products.map(product => {
